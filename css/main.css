@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body, html{
+    height: 100%;
+    background: #FDFFFC;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+/*HEADER OG NAV*/
+
+header{
+    display: flex;
+    background-color: #012441;
+    width: 100%;
+    align-items: center;
+    height: 100px;
+}
+.logo-container, 
+.nav-links{
+    display: flex;
+}
+.logo-container{
+    flex: 0.5;
+    
+}
+
+.logo-container input{
+    width: 90px;
+    height: auto;
+    margin-top: 26px;
+    border: none;
+    outline: none;
+}
+
+nav{
+    flex: 2;
+}
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-link{
+    color:  #FDFFFC;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+
+
+/*MAIN INNHOLD*/
+
+
+main h2{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 50px;
+  color: #052641;
+}
+
+main h4{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    line-height: 35px;
+    color:  #053155;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #012441;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.dropdown-content a {
+  color: #FDFFFC;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+.dropdown-content a:hover {background-color:#011627}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #011627;
+}
+
+
+.dropdown{
+    display: flex;
+    margin-top: 10%;
+   
+}
+
+.dropbtn{
+    width: 300px;
+    height: 50px;
+    background-color:#012441;
+    font-size: 15px;
+    color: #FDFFFC;
+    font-weight: bold;
+}
+
+.student{
+    width: 40%;
+    height: auto;
+
+}
+.mainInnhold{
+    display: flex;
+    justify-content: left;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    bottom: 0px;
+    width: 100%;
+    position: absolute;
+}
+
+.footer{
+    
+    width: 50%;
+    height: 20vh;
+    background-color: #012441;
+    text-align: center;
+    color: #FDFFFC;
+    }
+    .footer2{
+    width: 50%;
+    height: 20vh;
+    background-color: #011627;
+    text-align: center;
+    color: #FDFFFC;
+    
+    }
+    
+    .footer p{
+      margin-top: 4%;
+    }.footer2 p{
+      margin-top: 4%;
+    }
+    #announcements,#news{
+      font-size: 25px;
+    }
